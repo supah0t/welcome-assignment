@@ -4,7 +4,7 @@ Frontend assignment application
 
 ## Installation
 
-(Node version: LTS)
+Node version: LTS, package manager: yarn (could be any)
 
 - clone the repo
 
