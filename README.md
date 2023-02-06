@@ -4,9 +4,9 @@ Frontend assignment application
 
 ## Installation
 
-Using package manager of your choice (Node version: LTS)
+(Node version: LTS)
 
-clone the repo
+- clone the repo
 
 ```bash
 #from project root
