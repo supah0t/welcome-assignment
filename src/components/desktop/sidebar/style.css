@@ -1,0 +1,47 @@
+#sidebar {
+  width: 5.6rem;
+  height: 100vh;
+  background-color: white;
+  border-radius: 0 10px 10px 0;
+  position: absolute;
+  box-shadow: 1px 1px 5px lightgrey;
+  display: grid;
+  justify-content: center;
+  padding-top: 1.25rem;
+  grid-template-rows: auto auto 1fr;
+  grid-gap: 3.1rem;
+  z-index: 1;
+}
+
+#menu {
+  display: grid;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+#logo {
+  width: 3.4rem;
+}
+
+.icon {
+  border-radius: 0.43rem;
+  padding: 0.3rem;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.icon:hover {
+  fill: white;
+  background-color: #50d8a5;
+}
+
+/* 
+https://stackoverflow.com/questions/42966641/how-to-transform-black-into-any-given-color-using-only-css-filters/43960991#43960991 
+
+interesting post on how to calculate filters based on desired colour. */
+
+/*
+.menu-image > img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(216deg) brightness(105%) contrast(102%);
+}
+*/

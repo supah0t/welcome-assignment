@@ -1,0 +1,35 @@
+.content-area {
+  min-width: 1000px;
+}
+
+.title {
+  margin-bottom: 1.25rem;
+}
+
+.table-header {
+  width: 100%;
+  background-color: #ecedef;
+  color: #8c949e;
+  border-radius: 5px;
+  padding: 0.43rem;
+  font-size: 11px;
+  font-weight: bold;
+  margin-bottom: 1em;
+  box-shadow: none;
+}
+
+.new-tag {
+  font-size: 9px;
+  padding: 0.25rem 0.37rem 0.25rem 0.37rem;
+  border-radius: 3px;
+  background-color: #ffc149;
+  color: #fdfeff;
+  margin-left: 0.3rem;
+}
+
+.group-title {
+  font-size: 11px;
+  margin-bottom: 1em;
+  font-weight: bold;
+  color: #8c949e;
+}

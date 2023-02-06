@@ -1,0 +1,22 @@
+#topbar {
+  background-color: white;
+  height: 5rem;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  border-bottom: 1px solid #e9ebed;
+  display: grid;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2.5rem;
+}
+
+.icons {
+  display: flex;
+  gap: 2.5;
+}

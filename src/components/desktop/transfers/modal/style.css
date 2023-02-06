@@ -1,0 +1,93 @@
+.modal {
+  width: 500px;
+  background: white;
+  opacity: 1;
+  height: 90vh;
+  width: 90vw;
+  position: absolute;
+  left: 50%;
+  margin-left: -45vw;
+  top: 50%;
+  margin-top: -45vh;
+  border-radius: 10px;
+  z-index: 11;
+  cursor: initial;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  min-height: 800px;
+  min-width: 1100px;
+}
+
+.close-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.8rem 1.8rem 0 0;
+}
+
+.content-layout {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    'pic content content content content content'
+    'info content content content content content'
+    'info content content content content content'
+    'info content content content content content';
+}
+
+#pic-name {
+  grid-area: pic;
+  display: flex;
+  flex-direction: column;
+  gap: 1.87rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.traveler-photo {
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 50%;
+}
+
+.traveler-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#person-info {
+  grid-area: info;
+  width: 80%;
+  justify-self: center;
+  border-top: 1px solid #eeeff1;
+  margin-top: -0.62rem;
+  padding-top: 3.7rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#transfer-details {
+  grid-area: content;
+  border-left: 1px solid #eeeff1;
+}
+
+.group-heading {
+  font-size: 13px;
+  font-weight: bold;
+  color: #8c949e;
+}
+
+.opportunities-heading {
+  font-size: 13px;
+  font-weight: bold;
+  color: #8c949e;
+  margin-bottom: 0.6rem;
+}
+
+.details-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3.1rem;
+}

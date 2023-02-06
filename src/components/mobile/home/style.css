@@ -1,0 +1,53 @@
+.mobile-layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-top-bar {
+  width: 100%;
+  height: 4.3rem;
+  display: flex;
+  padding: 1.5rem;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 1px 7px lightgrey;
+}
+
+.mobile-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.menu-button {
+  cursor: pointer;
+}
+
+.mobile-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  transition: background 1s ease-in-out;
+  pointer-events: none;
+}
+
+.mobile-overlay.hide-overlay {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.mobile-overlay.show-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mobile-main-area {
+  margin: 1.5rem 2rem 0 2rem;
+  padding-bottom: 1rem;
+  height: 100%;
+  overflow-y: scroll;
+}

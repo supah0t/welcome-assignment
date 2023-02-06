@@ -1,0 +1,21 @@
+.opportunities {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.column-direction {
+  flex-direction: column;
+}
+
+.opportunities svg {
+  background-color: #f4f5f6;
+  padding: 0.4rem;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.62rem;
+}

@@ -1,0 +1,45 @@
+.row {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 0.62rem;
+  padding: 0.62rem;
+  display: grid;
+  grid-template-columns: 50px 250px 250px 180px 1fr;
+  grid-gap: 1.25rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 1px -2px lightgrey;
+  cursor: pointer;
+}
+
+.row > span {
+  display: flex;
+  align-items: center;
+}
+
+.photo {
+  height: 2.5rem;
+  width: 2.5rem;
+  min-width: 2.5rem;
+  border-radius: 50%;
+  margin-right: 0.62rem;
+}
+
+.name,
+.location {
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  background-color: rgba(62, 74, 89, 0.9);
+  backdrop-filter: blur(10px);
+  min-width: 1100px;
+}

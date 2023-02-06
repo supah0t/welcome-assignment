@@ -1,0 +1,131 @@
+.mobile-modal {
+  position: absolute;
+  width: 100vw;
+  height: 98vh;
+  position: fixed;
+  left: 0;
+  top: 100vh;
+  transition: all 0.7s ease-out;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 13px 13px 0 0;
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+  cursor: default;
+}
+
+.mobile-modal-title {
+  height: 6rem;
+  background-color: #eceeef;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: #8d959e;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.mobile-modal-main-area {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mobile-modal-close-button {
+  cursor: pointer;
+}
+
+.mobile-modal-guest-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2.5rem 2.5rem 2.5rem;
+}
+
+.mobile-modal-image-area {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  grid-gap: 4rem;
+  margin-top: 1.5rem;
+}
+
+.mobile-modal-name-area {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #e5e6e9;
+}
+
+.mobile-modal-photo {
+  height: 5rem;
+  width: 5rem;
+  min-width: 2.5rem;
+  border-radius: 50%;
+}
+
+.mobile-modal-traveler-name {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.mobile-modal-traveler-phone {
+  color: #9198a2;
+  font-weight: bold;
+}
+
+.mobile-modal-traveler-country {
+  color: #9198a2;
+  font-weight: bold;
+}
+
+.mobile-modal-opportunities-area {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  column-gap: 4rem;
+  row-gap: 1rem;
+  align-items: center;
+}
+
+.mobile-opportunities-icon {
+  display: flex;
+  justify-self: flex-end;
+  background-color: #f4f5f6;
+  padding: 0.4rem;
+  border-radius: 50%;
+  box-sizing: content-box;
+}
+
+.mobile-modal-opportunities-title {
+  font-weight: bold;
+  color: #9198a2;
+}
+
+.opportunities-name {
+  font-weight: bold;
+}
+
+.mobile-modal-button-group {
+  margin: auto 2.5rem 2rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-modal-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaecee;
+  border-radius: 5px;
+  font-weight: bold;
+  height: 4rem;
+  width: 47%;
+  cursor: pointer;
+  gap: 1rem;
+}
+
+.mobile-modal-button-icon {
+  fill: black;
+}

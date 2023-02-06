@@ -1,0 +1,75 @@
+.mobile-transfer-row {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 7px;
+  margin-bottom: 0.7rem;
+  padding: 1rem 1.7rem 1rem 1.7rem;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.mobile-person-info {
+  display: grid;
+  grid-template-areas: 'state image' 'name image';
+}
+
+.mobile-person-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-row-title {
+  font-weight: bold;
+  font-size: 10px;
+  color: #969da6;
+}
+
+.mobile-traveler-state {
+  grid-area: state;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.traveler-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem;
+  padding-right: 0.5rem;
+  border-radius: 25px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.blue {
+  background-color: #56a7fa;
+}
+
+.red {
+  background-color: #f96381;
+}
+
+.purple {
+  background-color: #736bff;
+}
+
+.mobile-traveler-name {
+  grid-area: name;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.mobile-traveler-image {
+  grid-area: image;
+}
+
+.mobile-photo {
+  height: 4rem;
+  width: 4rem;
+  min-width: 2.5rem;
+  border-radius: 50%;
+  margin-left: auto;
+}
