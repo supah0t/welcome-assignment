@@ -17,8 +17,6 @@ const Transfers = () => {
   const [modalNumber, setModalNumber] = useState(0);
   const arrayOfGroupedTransfers = completeGrouping(transfersList);
 
-  console.log(modalNumber);
-
   return (
     <div className="mobile-transfer-list">
       <div
