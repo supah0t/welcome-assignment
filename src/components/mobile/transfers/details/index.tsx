@@ -54,7 +54,7 @@ const MobileModal: FC<{
       <div className="mobile-modal-main-area">
         <MainPassengerInfo info={transferDetails} isMobile={true} />
         <div className="mobile-modal-guest-info">
-          <h2>Your guest</h2>
+          <h3>Your guest</h3>
           <div className="mobile-modal-image-area">
             <img
               className="mobile-modal-photo"
