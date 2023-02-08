@@ -12,9 +12,9 @@
   color: #8c949e;
   border-radius: 5px;
   padding: 0.43rem;
-  font-size: 11px;
+  font-size: 0.7rem;
   font-weight: bold;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   box-shadow: none;
 }
 
@@ -28,8 +28,8 @@
 }
 
 .group-title {
-  font-size: 11px;
-  margin-bottom: 1em;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   color: #8c949e;
 }

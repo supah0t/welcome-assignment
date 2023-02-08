@@ -35,7 +35,7 @@ const MainPassengerInfo: FC<{ info: TransferDetails; isMobile?: boolean }> = ({
 
   return (
     <div className={`main-info-content ${isMobile && 'mobile'}`}>
-      <h2 className="month-day">{monthAndDay}</h2>
+      <h3 className="month-day">{monthAndDay}</h3>
       <div className={`location-info ${isMobile && 'mobile'}`}>
         <div className="circle-and-arrow">
           <span className="circle" />
